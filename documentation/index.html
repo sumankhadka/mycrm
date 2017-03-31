@@ -1,0 +1,693 @@
+<!doctype html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+
+        <title>HRM CRM</title>
+
+        <meta name="description" content="dfgfdgfdg">
+        <meta name="author" content="UniqueCoder">
+        <meta name="copyright" content="UniqueCoder">
+        <meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+        <meta name="date" content="2015-04-04T00:00:00+02:00">
+
+        <link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/jquery.scrollTo.js"></script>
+        <script src="assets/js/jquery.easing.js"></script>
+        <script>document.createElement('section');
+            var duration = '500', easing = 'swing';</script>
+        <script src="assets/js/script.js"></script>
+        <style>
+            html{background-color:#EEEEEE;color:#383838;}
+            ::-moz-selection{background:#333636;color:#00DFFC;}
+            ::selection{background:#333636;color:#00DFFC;}
+            #documenter_sidebar #documenter_logo{background-image:url(logo.png);}
+            a{color:#008C9E;}
+            .btn {
+                border-radius:3px;
+            }
+            .btn-primary {
+                background-image: -moz-linear-gradient(top, #008C9E, #006673);
+                background-image: -ms-linear-gradient(top, #008C9E, #006673);
+                background-image: -webkit-gradient(linear, 0 0, 0 008C9E%, from(#343838), to(#006673));
+                background-image: -webkit-linear-gradient(top, #008C9E, #006673);
+                background-image: -o-linear-gradient(top, #008C9E, #006673);
+                background-image: linear-gradient(top, #008C9E, #006673);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008C9E', endColorstr='#006673', GradientType=0);
+                border-color: #006673 #006673 #bfbfbf;
+                color:#FFFFFF;
+            }
+            .btn-primary:hover,
+            .btn-primary:active,
+            .btn-primary.active,
+            .btn-primary.disabled,
+            .btn-primary[disabled] {
+                border-color: #008C9E #008C9E #bfbfbf;
+                background-color: #006673;
+            }
+            hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #FFFFFF;}
+            #documenter_sidebar, #documenter_sidebar ul a{background-color:#2C3E50;color:#FFFFFF;}
+            #documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #494F4F;-moz-text-shadow:1px 1px 0px #494F4F;text-shadow:1px 1px 0px #494F4F;}
+            #documenter_sidebar ul{border-top:1px solid #212424;}
+            #documenter_sidebar ul a{border-top:1px solid #494F4F;border-bottom:1px solid #212424;color:#FFFFFF;}
+            #documenter_sidebar ul a:hover{background:#22313F;color:#00DFFC;border-top:1px solid #333636;}
+            #documenter_sidebar ul a.current{background:#22313F;color:#00DFFC;border-top:1px solid #333636;}
+            #documenter_copyright{display:block !important;visibility:visible !important;}
+            .preview
+            {
+                max-height:600px;
+                -webkit-box-shadow:0 0px 15px 0 rgba(0,0,0,0.1);
+                -moz-box-shadow:0 0px 15px 0 rgba(0,0,0,0.1);
+                box-shadow:0 0px 15px 0 rgba(0,0,0,0.1);
+                clear: both;
+                margin: 20px 20px;
+            }
+            .screenshot-image{
+                width: 100%;
+            }
+        </style>
+
+    </head>
+    <body class="documenter-project-the-invoicer">
+        <div id="documenter_sidebar">
+            <br/>
+            <center>
+                <a href="#documenter_cover">
+                    <img src="assets/img/Thumnail.png" width="60" ><br/>
+                </a>                
+            </center>
+
+            <!-- Navigation Start-->
+            <ul id="documenter_nav">
+                <li><a class="current" href="#start">Start</a></li>
+                <li><a href="#features" title="Features">Features</a></li>
+                <li><a href="#install" title="intro">Installation</a></li>
+                <li><a href="#login" title="intro">Initial Login Details</a></li>
+                <li><a href="#admin_account" title="Admin_Account">Admin Area</a></li>                
+                <li><a href="#settings" title="Settings">Settings</a></li>
+                <li><a href="#tasks" title="tasks">Tasks</a></li>
+                <li><a href="#opportunity" title="tasks">Opportunity</a></li>
+                <li><a href="#lead" title="lead">Lead</a></li>
+                <li><a href="#project" title="project">Project</a></li>
+                <li><a href="#user" title="Department">User</a></li>
+                <li><a href="#client" title="client">Client</a></li>                
+                <li><a href="#mailbox" title="Mailbox">Mailbox</a></li>               
+                <li><a href="#invoice" title="invoice_Management">Invoice</a></li>
+                <li><a href="#estimate" title="Estimate_Management">Estimates</a></li>
+                <li><a href="#payments" title="Payment_Management">Payments</a></li>
+                <li><a href="#Transactions" title="Expense_Management">Transactions</a></li>                
+                <li><a href="#Quotation" title="Quotation_Management">Quotation</a></li>
+                <li><a href="#chat" title="Private_Chat">Private Chat</a></li>
+                <li><a href="#backup" title="Database_backup">Database_Backup</a></li>
+                <li><a href="#client_area" title="client_Area">Client Area</a></li>
+                <li><a href="#source_code" title="Source_Code">Source Code Structure</a></li>
+                <li><a href="#customer_support" title="Customer_Support">Customer Support</a></li>
+            </ul>
+            <!-- Navigation End-->
+            <div id="documenter_copyright">&COPY; UniqueCoder 2015<br>
+
+            </div>
+        </div>
+
+        <!-- Home Section Start-->
+        <div id="documenter_content">
+
+            <section id="start">
+                <h1>HRM CRM</h1>
+                <h2>HRM - Ultimate Project Manager CRM PRO</h2>
+                <hr>
+                <table>
+                    <tr>
+                        <td>Support :</td>
+                        <td><a href="mailto:uniquecoder007@gmail.com">uniquecoder007@gmail.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>Developer :</td>
+                        <td><a href="#">UniqueCoder</a></td>
+                    </tr>                    
+                </table>                
+                <hr>
+                <p>
+                    Thank you for your interest in BACS-PRO.<br />
+                    Please read carefully the complete documentation before starting.
+                </p>                
+                <img src="assets/img/Thumnail.png" >               
+            </section>
+
+            <!-- Home Section End -->
+
+
+            <!-- Features Section Start -->
+            <section id="features">
+                <div class="page-header"><h3>Key Features:</h3><hr class="notop"></div>
+                <ul>
+                    <li>Mobile compatible.</li>
+                    <li>Multi language support.</li>
+                    <li>Admin and Client panel.</li>
+                    <li>Beautiful Dashboard.</li>
+                    <li>Beautiful Report .</li>
+                    <li>Client Management individual person or Company Wise</li>      
+                    <li>Complete Income Management</li>                    
+                    <li>Complete Expense Management</li>  
+                    <li>Complete Tasks Management</li>                    
+                    <li>Complete Lead Management</li>                    
+                    <li>Complete Opportunity Management</li>                    
+                    <li>Project Management</li>  
+                    <li>Invoice.</li>            
+                    <li>Estimate.</li>            
+                    <li>Payment</li>                                
+                    <li>Configure personalized mailbox.</li>                    
+                    <li>Receive and send email.</li>
+                    <li>Save email as draft for later use.</li>
+                    <li>Tracking Trash Mail</li>                    
+                    <li>Expense Report</li>
+                    <li>Quotation And Quotation From Builder </li>
+                    <li>Client/Staff/admin Management with Staff Permission</li>                    
+                    <li>General Settings</li>
+                    <li>System Settings</li>
+                    <li>Email Settings</li>
+                    <li>Payments Settings</li>
+                    <li>Email Template Settings</li>
+                    <li>Invoice Settings</li>
+                    <li>Estimate Settings</li>
+                    <li>Theme Settings</li>
+                    <li>Department</li>
+                    <li>Tax</li>
+                    <li>Notification</li>
+                    <li>Tracking Online User</li>
+                    <li>Goal Tracking </li>
+                    <li>Custom Filed </li>
+                </ul>     
+                <br />               
+            </section>
+            <!-- Features Section End -->
+
+
+            <!-- Installation Section start -->
+            <section id="install">
+                <div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+                <h2>Installation Process</h2>
+                <ul>
+                    <li>Unzip the downloaded folder</li>
+                    <li>Copy the files inside the zip folder : "BACS-PRO V1.1" into your server</li>
+                    <li>The auto web installer will start</li>
+                    <li>Make sure <em>application/config/database.php</em> to be writtable</li>
+                    <li>Enter your database settings</li>
+                    <li>Press the "Install" button.</li>
+                    <li>That's it!</li>
+                </ul>
+                <img src="assets/img/install.png">
+            </section>
+            <!-- Installation Section End -->
+
+            <!-- Initial Login Details Start -->
+
+            <section id="login">
+                <div class="page-header"><h3>Initial Login Details:</h3><hr class="notop"></div>
+                <br />
+                <table class="login_table">
+                    <tr>
+                        <th><p>Admin Panel Login</p></th>
+                        <th><p>Client Panel Login</p></th>
+                    </tr>
+                    <tr>
+                        <td style="border-right: 1px solid #3a87ad;">                           
+                            <p><strong>Username : </strong> admin</p>
+                            <p><strong>Password : </strong> admin</p>
+                        </td>
+                        <td>
+                            <p><strong>Username : </strong> client</p>
+                            <p><strong>Password : </strong> client</p>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Initial Login Details End -->
+
+            <!-- Admin Account Section Start -->
+            <section id="admin_account">
+                <div class="page-header"><h3>Admin Account</h3><hr class="notop"></div>
+                <ul>
+                    <li>Manage general setting and information of your company.</li>
+                    <li>Manage System setting and information of your company.</li>
+                    <li>Manage Email setting and information of your company.</li>
+                    <li>Manage Payment setting and information of your company.</li>
+                    <li>Manage Invoice setting and information of your company.</li>
+                    <li>Manage Estimate setting and information of your company.</li>
+                    <li>Manage Theme setting and information of your company.</li>                    
+                    <li>Manage Notification setting and information of your company.</li>
+                    <li>Manage Language setting and information of your company.</li>
+                    <li>Manage Project of your company.</li>
+                    <li>Manage leads of your company.</li>
+                    <li>Manage Task of your company.</li>
+                    <li>Manage opportunity of your company.</li>                    
+                    <li>Create Deposit</li>
+                    <li>Create Expense</li>
+                    <li>Manage Deposit </li>
+                    <li>Manage Expense </li>
+                    <li>Manage Transfer </li>                   
+                    <li>Create and manage New Client .</li>                                                            
+                    <li>Create and manage Invoice System</li>
+                    <li>Create and manage Estimate System</li>
+                    <li>Create and manage Payment System</li>
+                    <li>Create and manage Tax System</li>
+                    <li>Create and manage Expense Category </li>
+                    <li>Create and manage Expense </li>
+                    <li>Create and manage Quotation </li>
+                    <li>Create and manage Quotation Form </li>                                       
+                    <li>View and generate PDF of monthly, yearly expense report.</li>
+                    <li>Create and manage Client/Staff/admin Management with Staff Permission</li>   
+                    <li>View inbox and compose new email.</li>
+                    <li>View sent mails and save email as draft.</li>
+                    <li>Backup database.</li>                                        
+                </ul>
+                <br />
+                <img style="width: 100%" src="assets/img/Dashboard.png" class="screenshot-image">
+                <p>Admin Dashboard screen dump.</p>
+                <br /><br />                
+                <img style="width: 100%" src="assets/img/deposit.png" class="screenshot-image">
+                <p>Deposit screen dump.</p>
+                <br /><br />
+                <img style="width: 100%" src="assets/img/expense.png" class="screenshot-image">
+                <p>Expense screen dump.</p>
+                <br /><br />                 
+                <img style="width: 100%" src="assets/img/Task Details.png" class="screenshot-image">
+                <p>Task details screen dump.</p>
+                <br /><br />
+                <img style="width: 100%" src="assets/img/Leads Details.png" class="screenshot-image">
+                <p>Leads Details screen dump.</p>
+                <br /><br />
+                <img style="width: 100%" src="assets/img/Project Details.png" class="screenshot-image">
+                <p>Project Details screen dump.</p>
+                <img src="assets/img/Client.png" class="screenshot-image">
+                <p>CLint List screen dump.</p>
+                <br /><br />
+                <img src="assets/img/Client Details.png" class="screenshot-image">
+                <p>CLint Deatils screen dump.</p>
+                <br /><br />                
+                <img src="assets/img/mailbox.png" class="screenshot-image">
+                <p>Mailbox screen dump.</p>
+                <br /><br />
+                <img src="assets/img/Invoice.png" class="screenshot-image">
+                <p>Invoice screen dump.</p>
+                <br /><br />
+                <img src="assets/img/Invoice Details.png" class="screenshot-image">
+                <p>Invoice Details screen dump.</p>
+                <br /><br />
+                <img src="assets/img/Estimates.png" class="screenshot-image">
+                <p>Estimate screen dump.</p>
+                <br /><br />
+                <img src="assets/img/Estimates Details.png" class="screenshot-image">
+                <p>Estimate Details screen dump.</p>
+                <br /><br />
+
+                <img src="assets/img/All Payments.png" class="screenshot-image">
+                <p>All Payment screen dump.</p>
+                <br /><br />
+
+                <img src="assets/img/Payments Details.png" class="screenshot-image">
+                <p>Payment Details screen dump.</p>
+                <br /><br />
+
+                <img src="assets/img/User.png" class="screenshot-image">
+                <p>User List screen dump.</p>
+                <br /><br />
+                <img src="assets/img/User Details.png" class="screenshot-image">
+                <p>User Deatils screen dump.</p>
+                <br /><br />
+                <img src="assets/img/Add User.png" class="screenshot-image">
+                <p>New User screen dump.</p>
+                <br /><br />
+                <img src="assets/img/Template.png" class="screenshot-image">
+                <p>Payment Gateway screen dump.</p>
+
+            </section>
+            <!-- Admin Account Section Start -->
+
+
+            <!-- Settings Section Start -->
+            <section id="settings">
+                <div class="page-header"><h3>Settings</h3><hr class="notop"></div>
+                <p style="text-align: justify;; width: 800px;">
+                    At the heart of this application is the very advanced SETTINGS management section. We have made sure that you will rarely need to manually edit any settings files or config files in order to make system wide changes.
+
+                    The SETTINGS section has various tabs, which will allow you to configure those aspects of the PRODUCT. We have included some instructions for the various settings sections (within the application) 
+                </p>
+                <ul>
+                    <li>COMPANY SETTINGS
+                        <p style="text-align: justify;; width: 700px;">This is where you set all your company information (name, telephone, etc)</p>
+                    </li>
+                    <li>COMPANY SETTINGS
+                        <p style="text-align: justify;; width: 700px;">This is where you set all your System information (Language, Timezone,Currency, etc)</p>
+                    </li>
+                    <li>Email Settings
+                        <p style="text-align: justify;; width: 700px;">You can configuration of your email using SMTP Or simple PHP Email.</p>
+
+                    </li>
+                    <li>Invoice Settings
+                        <p style="text-align: justify;; width: 700px;">You can easily set your Invoice Settings like  invoice logo / text etc</p>
+                    </li>
+                    <li>Estimate Settings
+                        <p style="text-align: justify;; width: 700px;">You can easily set your Estimate Settings Estimate prefix / text etc</p>
+                    </li>
+                    <li>Theme Templates
+                        <p style="text-align: justify;; width: 700px;">You can set many type of Theme</p>
+                    </li>
+                    <li>Department
+                        <p style="text-align: justify;; width: 700px;">You can add and manage department</p>
+                    </li>                    
+                    <li>Cronjob Settings
+                        <p style="text-align: justify;; width: 700px;">The basic cronjob should run at least once a day and is used in order to activate automated tasks like recurring invoices (subscriptions) and automatic database backup. Please refer to your web host providers FAQ in order to find out how to setup a cronjob/crontab (if your hosting package includes cronjobs).
+
+The command should look like this: wget http://www.your-domain.com/cronjob
+
+Your hosting package does not include cronjob/crontab? No problem! There are many websites who offer free cronjob services. One of them is www.setcronjob.com.</p>
+                    </li>                    
+                    <li>Email Integration
+                        <p style="text-align: justify;; width: 700px;">The email ticket cronjob and lead cronjob should run every 10 minutes and is used in order to activate email tickets.
+
+The command should look like this (you can find your cronjob command in Settings->Ticket->Postmaster cronjob link): wget http://www.your-domain.com/postmaster -O /dev/null
+
+</p>
+                    </li>                    
+                    <li>Notification Settings
+                        <p style="text-align: justify;; width: 700px;">You can easily switch ON or OFF for different notification criteria to get notified or not.<br /> This enhance user experience
+                            and will keep you updated and hassle free.</p>
+                    </li>
+                    <li>Translations
+                        <p style="text-align: justify;; width: 700px;">You can set many type of language and and manage</p>
+                    </li>
+                </ul>
+                <br />
+                <img  src="assets/img/Template.png" class="screenshot-image">
+            </section>
+            <!-- Settings Section End -->            
+
+            <section id="tasks">
+                <div class="page-header"><h3>Tasks</h3><hr class="notop"></div>
+                <p style="text-align: justify;; width: 800px;">
+                    You can view/add/ delete the Tasks of this project,opportunity,Leads and individual Task 
+                </p>
+
+                <br />
+                <img src="assets/img/Task.png" class="screenshot-image">
+                <img src="assets/img/Task Details.png" class="screenshot-image">
+            </section>
+            <section id="opportunity">
+                <div class="page-header"><h3>opportunity</h3><hr class="notop"></div>
+                <p style="text-align: justify;; width: 800px;">
+                    You can view/add/ delete the opportunity. 
+                </p>
+
+                <br />
+                <img src="assets/img/opportunity.png" class="screenshot-image">
+                <img src="assets/img/opportunity_details.png" class="screenshot-image">
+            </section>
+            <section id="lead">
+                <div class="page-header"><h3>lead</h3><hr class="notop"></div>
+                <p style="text-align: justify;; width: 800px;">
+                    You can view/add/ delete the lead. 
+                </p>
+
+                <br />
+                <img src="assets/img/Leads.png" class="screenshot-image">
+                <img src="assets/img/leads_details.png" class="screenshot-image">
+            </section>
+            <section id="project">
+                <div class="page-header"><h3>project</h3><hr class="notop"></div>
+                <p style="text-align: justify;; width: 800px;">
+                    You can view/add/ delete the project. 
+                </p>
+
+                <br />
+                <img src="assets/img/project.png" class="screenshot-image">
+                <img src="assets/img/project_details.png" class="screenshot-image">
+            </section>
+            <!-- Department Section Start -->
+            <section id="user">
+                <div class="page-header"><h3>Users</h3><hr class="notop"></div>
+                <p style="text-align: justify;; width: 800px;">
+                    The tab Users You can add a new client.new users with menu permission and also create and manage admin
+                </p>
+                <br />
+                <img src="assets/img/Add User.png" class="screenshot-image">
+                <br/>
+                <img src="assets/img/User.png" class="screenshot-image">
+
+            </section>
+            <!-- Department Section End -->
+
+
+            <!-- client Section Start -->
+            <section id="client">
+                <div class="page-header"><h3>client</h3><hr class="notop"></div>
+                <p style="text-align: justify;; width: 800px;">
+                    The client tab will let you add, update or delete client and their related information along with documents and 
+                    bank details as required by your organization.
+                </p>
+                <ul>
+                    <li>Add client
+                        <p style="text-align: justify;; width: 700px;">Add new client according to your company client id and with client's  information.
+                            You can also keep an clients all related documents and place .
+                            You can also keep client's photo and hosting and contact information.
+                        </p>
+                    </li>
+                    <li>client List
+                        <p style="text-align: justify;; width: 700px;">You can view all client according to this tab.</p>                        
+                    </li>                    
+
+                </ul>
+                <br />
+                <img src="assets/img/Client.png" class="screenshot-image">
+                <br/>
+                <img src="assets/img/Client Details.png" class="screenshot-image">
+            </section>
+            <!-- client Section End -->
+
+            <!-- Mailbox Section Start -->
+            <section id="mailbox">
+                <div class="page-header"><h3>Mailbox</h3><hr class="notop"></div>
+                <p style="text-align: justify;; width: 800px;">
+                    In mailbox you can easily set your email address and it will be automatically configured. You will start receiving mails and 
+                    you can also send mails to anyone you want. Mailbox is an essential features and is a must for any human resource management.
+                    You can also save mails as draft for later sending. You can easily compose new mails from both inbox, sent or draft.
+                </p>
+                <ul>
+                    <li>Inbox</li>
+                    <li>Sent</li>                                                            
+                    <li>Draft</li>                                                                                
+                </ul>                
+                <br />
+                <img src="assets/img/mailbox.png" class="screenshot-image">
+            </section>
+            <!-- Mailbox Section End -->
+
+            <!-- invoice Section Start -->
+            <section id="invoice">
+                <div class="page-header"><h3>invoice</h3><hr class="notop"></div>
+                <p style="text-align: justify;; width: 800px;">
+                    You can view/add/ delete the invoice of this project 
+                </p>
+
+                <br />
+                <img src="assets/img/Invoice.png" class="screenshot-image">
+                <img src="assets/img/Invoice Details.png" class="screenshot-image">
+            </section>
+            <!-- invoice Section Start -->
+            <section id="estimate">
+                <div class="page-header"><h3>Estimate</h3><hr class="notop"></div>
+                <p style="text-align: justify;; width: 800px;">
+                    You can view/add/ delete the Estimate of this project 
+                </p>
+
+                <br />
+                <img src="assets/img/Estimates.png" class="screenshot-image">
+                <img src="assets/img/Estimates Details.png" class="screenshot-image">
+            </section>
+            <!-- invoice Section End -->
+
+
+
+
+
+
+            <!-- Notice Section Start -->
+            <section id="payments">
+                <div class="page-header"><h3>Payment</h3><hr class="notop"></div>
+                <p style="text-align: justify;; width: 800px;">
+                    You can view/add/ delete the Payment of this project 
+                </p>
+
+                <br />
+                <img src="assets/img/All Payments.png" class="screenshot-image">
+                <img src="assets/img/Payments Details.png" class="screenshot-image">
+            </section>
+            <!-- Expense Section Start -->
+            <section id="Transactions">
+                <div class="page-header"><h3>Transaction</h3><hr class="notop"></div>                
+                <ul>
+                    <li>Deposit                        
+                    </li>
+                    <li>Expense
+
+                    </li>                                                            
+                    <li>Transfer                                             
+                    </li>                                                                                
+                </ul> 
+                <br /><br />                
+                <img style="width: 100%" src="assets/img/deposit.png" class="screenshot-image">
+                <p>Deposit screen dump.</p>
+                <br /><br />
+                <img style="width: 100%" src="assets/img/expense.png" class="screenshot-image">
+                <p>Expense screen dump.</p>
+                <br /><br />
+
+            </section>
+            <!-- Expense Section End -->
+            <!-- Notice Section End -->
+            <!-- Notice Section Start -->
+            <section id="Quotation">
+                <div class="page-header"><h3>Quotation</h3><hr class="notop">
+                    The applications allows you to create forms that your existing clients or potential clients can fill in to request a quotation from you.
+
+                    Once you clients have filled in the quotation forms, you will be able to price them and let them know how much the work will cost. 
+
+                    We have included a default QUOTATION FORM, but you can create your own forms using the easy to use QUOTATION FORM BUILDER
+                </div>
+                <ul>
+                    <li>QUOTATION
+                        <p style="text-align: justify;; width: 700px;">These are the forms that have actually been completed by your clients. You access these via the main menu item QUOTATIONS
+                        </p>                        
+                    </li>
+
+                    <li>QUOTATION FORM BUILDER 
+                        <p style="text-align: justify;; width: 700px;">This is what you use to create your own custom forms. You can access this via the main menu item QUOTATION FORMS
+                        </p>                        
+                    </li>                                                            
+
+                </ul>       
+
+            </section>
+            <!-- Notice Section End -->
+
+
+            <!-- Database Section Section Start -->
+            <section id="chat">
+                <div class="page-header"><h3>Private Chat</h3><hr class="notop"></div>
+                <p style="text-align: justify;; width: 800px;">
+                    To Send,receive internally message.also view he/she is online or offline.
+                </p>                                
+                <br />
+                <img src="assets/img/Private Chat.png" class="screenshot-image">
+            </section>
+            <section id="backup">
+                <div class="page-header"><h3>Database Backup</h3><hr class="notop"></div>
+                <p style="text-align: justify;; width: 800px;">
+                    You can easily take backup of your database by simply clicking on the menu tab Database Backup. Everything in your database will get in the 
+                    database that will be exported as a zip file in your local directory. 
+                </p>                                
+                <br />
+                <img src="assets/img/database_backup.png" class="screenshot-image">
+            </section>
+            <!-- Database Section Section End -->
+
+
+            <!-- client Account Start -->
+            <section id="client_area">
+                <div class="page-header"><h3>client Account</h3><hr class="notop"></div>
+                <p style="text-align: justify;; width: 800px;">
+                    Each client of your organization will get a beautiful client panel after they login to the system. clients can perform 
+                    the following tasks from their panel:                
+                </p>                                
+                <p style="text-align: justify;; width: 800px;">
+                    After client login to their panel using this login credentials - they can easily update thir own password as 
+                    required. 
+                </p>
+                <ul>                    
+                    <li>Mailbox</li>
+                    <li>View Invoice</li>
+                    <li>View Estimate</li>
+                    <li>View Payment Details</li>                                                            
+                    <li>View And Request a Quotation</li>
+                    <li>Manage user List</li>
+                    <li>Company Settings</li>
+                    <li>Priveate Chat</li>                    
+                </ul>                                
+                <br />
+                <img src="assets/img/client_dashboard.png" class="screenshot-image">
+                <p>Client Dashboard screen dump.</p>
+                <br /><br />
+                <img src="assets/img/Mailbox.png" class="screenshot-image">
+                <p>Client Mailbox - Inbox screen dump.</p>
+                <br /><br />
+                <img src="assets/img/Invoice.png" class="screenshot-image">
+                <p>Client Invoice - Invoice List Screen dump.</p>
+                <br /><br />
+                <img src="assets/img/Estimates.png" class="screenshot-image">
+                <p>Client Estimate- Estimate List Screen dump.</p>
+                <br /><br />
+                <img src="assets/img/client_payment.png" class="screenshot-image">
+                <p>Client Payment List screen dump.</p>
+
+                <br /><br />
+                <img src="assets/img/User.png" class="screenshot-image">
+                <p>Client User List screen dump.</p>
+                <br /><br />
+                <img src="assets/img/Client Details.png" class="screenshot-image">
+                <p>Client Settings screen dump.</p>
+                <br /><br />
+                <img src="assets/img/Private Chat.png" class="screenshot-image">
+                <p>Client Private Chat screen dump.</p>                
+            </section>
+            <!-- client Account End -->
+
+
+            <!-- Source Code Section Start -->
+            <section id="source_code">
+                <div class="page-header"><h3>Source Code Structure</h3><hr class="notop"></div>
+                <ul>
+                    <li>Build up on powerful  codeigniter  php framework.</li>
+                    <li>For more info on codeigniter , go to :  http://codeigniter.com/user_guide/</li>
+                    <li>Follows MVC model.</li>
+                </ul>
+                <h5>Included Files:</h5>
+                <ul>
+                    <li>Login php controller : application/controllers/login.php</li>
+                    <li>Data models in php file : application/models/ directory</li>
+                    <li>Configuration files : application/config/config.php</li>
+                    <li>Admin controller : application/controllers/admin/ directory</li>
+                    <li>Admin view files : application/views/admin/  directory</li>
+                    <li>client controller : application/controllers/client/ directory</li>
+                    <li>client view files : application/views/client/  directory</li>
+                    <li>Template css files : assets/css/   directory</li>
+                    <li>Template font files : assets/fonts/   directory</li>
+                    <li>Template js files : assets/js   directory</li>
+                    <li>Template image files : assets/img/   directory</li>
+                    <li> images uploaded in : img/uploads/ directory</li>
+                </ul>
+                <br />
+            </section>
+            <!-- Source Code Section Start -->
+
+
+            <!-- Support Section Start -->
+            <section id="customer_support">
+                <div class="page-header"><h3>Customer Support</h3><hr class="notop"></div>
+                <p style="text-align: justify;; width: 800px;"> UniqueCoder is always ready to serve its valued clients.
+                    For any kind of after sales support or customization - Don't hesitate to contact us at: <br /><br />
+                    E-Mail: <a href="mailto:uniquecoder007@gmail.com">uniquecoder007@gmail.com</a><br />                    
+                </p>
+                <br />                
+                <img src="assets/img/rate_us.jpg" alt="rate_us" class="rate-us" >
+            </section>
+            <!-- Support Section End -->
+        </div>
+    </body>
+</html>
